@@ -41,7 +41,8 @@ cd modules
 git clone --depth 1 --branch <tag_name> git@github.com:deseven/mod-pbc.git
 ```
 
-> [!INFO] For tags `2026-08-10` and older (before the repo was renamed from `mod-playerbots-characters` to `mod-pbc`), append the old folder name to the clone command, i.e. `git clone --depth 1 --branch 2026-08-10 git@github.com:deseven/mod-pbc.git mod-playerbots-characters`
+> [!INFO]
+> For tags `2026-08-10` and older (before the repo was renamed from `mod-playerbots-characters` to `mod-pbc`), append the old folder name to the clone command, i.e. `git clone --depth 1 --branch 2026-08-10 git@github.com:deseven/mod-pbc.git mod-playerbots-characters`
 
 When you want to upgrade to a newer release tag:
 
