@@ -13,6 +13,11 @@
 // This helper parses WMOAreaTable.dbc directly at startup to build a lookup
 // of (rootId, adtId, groupId) -> area name, which we use to enhance location
 // descriptions for indoor subzones like "Lion's Pride Inn".
+//
+// Names are read for the server's DBC locale: first from the per-locale file
+// (dbc/<locale>/WMOAreaTable.dbc, e.g. dbc/ruRU/...), falling back to the
+// enUS column of the base dbc/WMOAreaTable.dbc for entries without a
+// translation.
 // ---------------------------------------------------------------------------
 
 // Key: (rootId, adtId, groupId) triple identifying a WMO group
